@@ -1,6 +1,6 @@
 .zone {
    
-    cursor:pointer;
+    
     display:inline-block;
     
     font-size:2em;
@@ -29,8 +29,10 @@ body{
     grid-column-end: 4;
     
     display: flex;
-    display:block;
     
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:LightGray;
+    background-color:hsla(9, 100%, 64%, 0.2);
     }
 
 
@@ -38,14 +40,18 @@ body{
  *  Red Background
  **********************************************************************/
 .red{
+    
+   flex-wrap: wrap;
     display: flex;
     justify-content: center;
     background-image: url(cityscape.jpg) ;
     background-size: cover;
     background-position: center;
-    font-family: 'Saira Stencil One', cursive;
-    font-size: 70px;
+    
     align-items: center;
+
+
+
 }
 
 /***********************************************************************
@@ -75,18 +81,39 @@ body{
      
     background-image: url(pink1.jpg);
     background-size: cover;
-    
     justify-content: flex-end;
+
     }
 .blue1{
     display: flex;
      
     background-image: url(blue1.png) ;
     background-size: cover;
-    justify-content: flex-start;
+    background-size:
+
+    
     
 
     }
+
+
+
+img{
+    
+    max-height: 15em;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+   
+    
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
 
 
 li{
@@ -102,7 +129,7 @@ li{
 
 .grid-item {
   
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 0.1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 30px;
   
@@ -117,6 +144,7 @@ li{
     padding-bottom: 65px; 
     color: #fff;
     max-width: 900px;
+
 }
 
 .container_text2{
@@ -139,6 +167,16 @@ li{
 
 }
 
+.container_text4{
+    font-family: 'Saira Stencil One', cursive;
+    font-size: 70px;
+    color: #fff;
+    padding: 25px;
+    border-radius: 25px 1px 25px 1px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
 .special{
 
     margin-left: auto;
@@ -149,10 +187,8 @@ li{
 }
 
 .cont{
-    display: flex;
-    
-    justify-content: center;
     height: 50vh;
+
 }
 
 .cover{
